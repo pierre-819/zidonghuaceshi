@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <ProjectName>yygame</ProjectName>
+
+    <Env>
+        <!-- 被测站点：YY游仓测试环境。命令行参数 base_url 优先级更高 -->
+        <baseUrl>https://malltest.yy.com</baseUrl>
+        <!-- chromium / firefox / webkit，命令行参数 browser_type 优先级更高 -->
+        <browser>chromium</browser>
+        <!-- pc / h5，决定 page 里取哪一套定位器 -->
+        <platform>pc</platform>
+        <headless>false</headless>
+         <!-- 设置成有头模式 ，可以看到打开浏览器-->
+    </Env>
+
+    <!-- UserA 必填：YY号 + 密码，需要是免图形验证码的自动化测试账号 -->
+    <UserA>
+        <UID></UID>
+        <userName>test_i12</userName>
+        <userPassword>123456789.</userPassword>
+    </UserA>
+
+    <UserB>
+        <UID></UID>
+        <userName></userName>
+        <userPassword></userPassword>
+    </UserB>
+
+    <UserC>
+        <UID></UID>
+        <userName></userName>
+        <userPassword></userPassword>
+    </UserC>
+
+    <UserD>
+        <UID></UID>
+        <userName></userName>
+        <userPassword></userPassword>
+    </UserD>
+
+    <Data>
+        <searchKeyword>三角洲行动</searchKeyword>
+        <gameName>英雄联盟</gameName>
+    </Data>
+</Config>

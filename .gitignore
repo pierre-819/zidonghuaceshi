@@ -1,0 +1,16 @@
+# Runtime and local environment files
+**/__pycache__/
+*.py[cod]
+*.log
+**/.pytest_cache/
+**/tmp/
+
+# Test outputs and browser captures
+**/captures/*
+!**/captures/.gitkeep
+**/report/*.html
+**/report/*.xml
+*.zip
+
+# Local browser authentication state
+YYgame/configs/storage/storage_state.json
